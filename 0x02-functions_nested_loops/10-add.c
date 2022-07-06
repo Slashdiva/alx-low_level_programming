@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * print_times_table - prints times table
- * @n : times table to use
- * Return:void
- * */
+ * add - add two numbers from input
+ * @a: first aparamet
+ * @b: second parameter
+ *
+ * Description: adds two numbers
+ *  Return: Always (0).
+ */
 
-void print_times_table(int n)
+int add(int a, int b)
 {
-	int a = 0, rep, b;
+	return (a + b);
+}
