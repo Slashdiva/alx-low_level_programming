@@ -1,7 +1,0 @@
-#ifndef _PUTCHAR
-#define _PUTCHAR
-
-
-void _puts(char *str);
-
-#endif
