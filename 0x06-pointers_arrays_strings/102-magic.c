@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * description: Add one line to this code
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int n;
