@@ -2,13 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - Write a program that multiplies two numbers
- * Your program should print the result of the multiplication
- * You can assume that the two numbers and result of the multiplication
- *  can be stored in an integer
- *
- * @argc: This is argument count
- * @argv: This is argument vector
+ * main - Write a program that multiplies two number
+ * @argc: This is the argument count
+ * @argv: This is the argument vector
  *
  * Return: 0;
  */
@@ -23,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	for (index = 1; index < argc; index++)
 	{
-		multiplication = multiplication *atoi(argv[index]);
+		multiplication = multiplication * atoi(argv[index]);
 	}
 	printf("%d\n", multiplication);
 	return (0);
