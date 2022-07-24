@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Write a program that multiplies two number
+ * main - program that multiplies two numbers.
  * @argc: This is the argument count
  * @argv: This is the argument vector
  *
@@ -11,7 +10,8 @@
 int main(int argc, char *argv[])
 {
 	int index, multiplication;
-
+	
+	multiplication = 1;
 	if (argc < 3)
 	{
 		printf("Error\n");
