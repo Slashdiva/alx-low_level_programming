@@ -1,6 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stddef.h>
-#include <stdlib.h> 
 
 /**
  * string_nconcat - this is the string concatenation
