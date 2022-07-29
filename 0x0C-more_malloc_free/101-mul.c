@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -14,7 +15,7 @@ int _isdigit(int c)
 }
 
 /**
- *_strlen - returns the length of a string
+ **_strlen - returns the length of a string
  *@s: the string whose length to check
  *
  *Return: integer length of string
@@ -29,7 +30,7 @@ int _strlen(char *s)
 }
 
 /**
- *big_multiply - multiply two big number strings
+ *big_multiply - multiply to big number strings
  *@s1: the first big number string
  *@s2: the second big number string
  *
@@ -45,7 +46,7 @@ char *big_multiply(char *s1, char *s2)
 	r = malloc(a = x = l1 + l2);
 	if (!r)
 		printf("Error\n"), exit(98);
-	while (a--)
+	while(a--)
 		r[a] = 0;
 
 	for (l1--; l1 >= 0; l1--)
@@ -79,9 +80,9 @@ char *big_multiply(char *s1, char *s2)
 }
 
 /**
- *main - multiply two big number strings
+ *main - multiply too big number strings
  *@argc: the number of arguments
- *@argv: the number vector
+ *@argv: the number of vector
  *
  *Return: Always 0 on success.
  */
@@ -111,4 +112,3 @@ int main(int argc, char **argv)
 	free(r);
 	return (0);
 }
-
