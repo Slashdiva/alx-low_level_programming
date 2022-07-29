@@ -1,6 +1,6 @@
 #include <string.h>
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -15,7 +15,7 @@ int _isdigit(int c)
 }
 
 /**
- **_strlen - returns the length of a string
+ *_strlen - returns the length of a string
  *@s: the string whose length to check
  *
  *Return: integer length of string
@@ -30,7 +30,7 @@ int _strlen(char *s)
 }
 
 /**
- *big_multiply - multiply to big number strings
+ *big_multiply - multiply two big number strings
  *@s1: the first big number string
  *@s2: the second big number string
  *
